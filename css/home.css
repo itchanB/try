@@ -1,0 +1,176 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('img/1.jpg');
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    float: center;
+    position: absolute;
+    margin-left: 43%;
+}
+
+.himg {
+    float: right;
+    margin: 10px 30px 0px 0px;
+}
+
+
+.header{
+    width: 100%;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.d-content {
+    display: none;
+    position: fixed;
+    background-color: rgba(167, 106, 15, 0.767); 
+    transition: 3s;
+    
+    
+}
+
+.d-content img{
+    padding: 1% 0% 5% 0%;
+    width:  auto;
+    flex: 33.33%;
+    margin: 0% 5% 0% 5%;
+}
+
+.d-content h5.icol1 {
+    text-decoration: none;
+}
+
+.d-content .icon1 {
+    position: absolute;
+    top: 85%;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 0% 14.33% 1.60% 13.33%;
+    transition: 0.2s;
+}
+
+.icon1 a{
+    color: black;
+    text-decoration: none;
+}
+
+.icon1 a:hover {
+    color: antiquewhite;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+}
+
+
+.d-content .icon2 {
+    position: absolute;
+    top: 85%;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0% 0% 0% 33%;
+    padding: 0% 13% 1.60% 14.33%;
+    transition: 0.2s;
+}
+
+.icon2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.icon2 a:hover {
+    color: antiquewhite;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+}
+
+.d-content .icon3 {
+    position: absolute;
+    top: 85%;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0% 0% 0% 67%;
+    padding: 0% 14.33% 1.60% 14.33%;
+    transition: 0.2s;
+}
+
+.icon3 a{
+    color: black;
+    text-decoration: none;
+}
+
+.icon3 a:hover {
+    color: antiquewhite;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+}
+
+.d-content h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px rgb(167, 106, 15);
+}
+
+.d-content h5:hover{
+    background-color: rgba(189, 175, 155, 0.712);
+    color: antiquewhite;
+    text-shadow: 1px 1px black;
+    
+}
+
+.dropdown:hover .d-content {
+  display: flex;
+  width: 100%;
+  height: 45%;
+  left: 0;
+}
+
+a.headercontent {
+    color:  rgb(124, 92, 50);
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    transition: 0.2s;
+}
+
+
+a.headercontent:hover {
+    color: white;
+    background-color: rgba(167, 106, 15, 0.712);
+    opacity: 1;
+    
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    background-color: rgb(170, 109, 17);
+    color: rgb(255, 211, 155);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+  } 
